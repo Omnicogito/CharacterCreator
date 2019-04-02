@@ -13,6 +13,7 @@ namespace CharCreator.Data
     };
     public class Player
     {
+        [Key]
         public int ID { get; set; }
         [StringLength(50)]
         [Required]

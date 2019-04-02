@@ -6,9 +6,9 @@ using System.Web;
 
 namespace CharacterCreator.DAL
 {
-    public class SiteInitializer: System.Data.Entity.DropCreateDatabaseIfModelChanges<SiteContext>
+    public class SiteInitializer: System.Data.Entity.DropCreateDatabaseIfModelChanges<ApplicationDbContext>
     {
-        protected override void Seed(SiteContext context)
+        protected override void Seed(ApplicationDbContext context)
         {
             var players = new List<Player>
             {

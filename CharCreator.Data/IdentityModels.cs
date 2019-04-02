@@ -37,5 +37,9 @@ namespace CharCreator.Data
         public System.Data.Entity.DbSet<CharCreator.Data.Character> Characters { get; set; }
 
         public System.Data.Entity.DbSet<CharCreator.Data.Story> Stories { get; set; }
+
+        public System.Data.Entity.DbSet<CharCreator.Data.CharClass> CharClasses { get; set; }
+
+        public System.Data.Entity.DbSet<CharCreator.Data.CharRace> CharRaces { get; set; }
     }
 }
